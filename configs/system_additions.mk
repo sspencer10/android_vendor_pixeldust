@@ -33,6 +33,13 @@ PRODUCT_COPY_FILES += \
 
 ADDITIONAL_FONTS_FILE := vendor/pixeldust/fonts/google-sans.xml
 
+ifeq ($(AB_OTA_UPDATER),true)
+PRODUCT_COPY_FILES += \
+    vendor/pixeldust/prebuilt/bin/backuptool_ab.sh:system/bin/backuptool_ab.sh \
+    vendor/pixeldust/prebuilt/bin/backuptool_ab.functions:system/bin/backuptool_ab.functions \
+    vendor/pixeldust/prebuilt/bin/backuptool_postinstall.sh:system/bin/backuptool_postinstall.sh
+endif
+
 # Theme Packages
 PRODUCT_PACKAGES += \
     SystemDarkTheme \
