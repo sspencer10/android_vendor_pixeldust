@@ -19,6 +19,10 @@ PRODUCT_PACKAGES += \
     LiveWallpapers \
     LiveWallpapersPicker
 
+# Fonts
+PRODUCT_PACKAGES += \
+    PD-Fonts
+
 # Theme Packages
 PRODUCT_PACKAGES += \
     SystemDarkTheme \
