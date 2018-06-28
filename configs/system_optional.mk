@@ -14,7 +14,11 @@
 
 # Build PixelDust Walls
 PRODUCT_PACKAGES += \
-    PixelDustWallpapers \
+    PixelDustWallpapers
+
+# Additional goodies
+PRODUCT_PACKAGES += \
+    GooglePDFViewer \
     Browser
 
 # Copy hiddenapi whitelist
