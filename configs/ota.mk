@@ -12,18 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Pixel Dust ROM versioning
-BUILD_VERSION := PixelDustROM-$(PLATFORM_VERSION)-$(shell date +%Y%m%d)
+ifneq ($(filter pixeldust_marlin,$(TARGET_PRODUCT)),)
 
-PRODUCT_BUILD_PROP_OVERRIDES := BUILD_DISPLAY_ID=$(BUILD_VERSION)
-PRODUCT_BUILD_PROP_OVERRIDES += TARGET_BUILD_TYPE=user
-PD_BUILDTYPE := RELEASE
+PRODUCT_PACKAGES += \
+    PixelDustOTA
 
-# Pixel Dust ROM package name 
-PIXELDUST_VERSION := $(TARGET_PRODUCT)-pie-alpha-$(shell date -u +%Y%m%d-%H%M)
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.pixeldust.version=$(BUILD_VERSION)-$(PD_BUILDTYPE) \
-    ro.pixeldust.device=$(TARGET_DEVICE) \
-    ro.pixeldust.ota.version=$(TARGET_PRODUCT)-$(PIXELDUST_VERSION)
-
+endif
