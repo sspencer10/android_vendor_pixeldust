@@ -19,6 +19,10 @@ include vendor/pixeldust/configs/pixeldust_optimizations.mk
 include vendor/pixeldust/configs/system_additions.mk
 include vendor/pixeldust/configs/version.mk
 
+# World APN list
+PRODUCT_COPY_FILES += \
+    vendor/pixeldust/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
+
 # Telephony packages
 PRODUCT_PACKAGES += \
     Stk \
