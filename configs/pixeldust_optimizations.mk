@@ -26,3 +26,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # SystemUITests
 EXCLUDE_SYSTEMUI_TESTS := true
 
+# Copy all init rc files
+$(foreach f,$(wildcard vendor/pixeldust/prebuilt/etc/init/*.rc),\
+	$(eval PRODUCT_COPY_FILES += $(f):system/etc/init/$(notdir $f)))
+
