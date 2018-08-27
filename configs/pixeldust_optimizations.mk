@@ -12,3 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# DL Audio
+PRODUCT_PROPERTY_OVERRIDES += \
+    aaudio.dl_scheduler=true
+
