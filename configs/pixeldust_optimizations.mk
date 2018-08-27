@@ -16,3 +16,10 @@
 PRODUCT_PROPERTY_OVERRIDES += \
     aaudio.dl_scheduler=true
 
+# Tuning props
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.selinux=1 \
+    ro.actionable_compatible_property.enabled=false \
+    ro.com.android.prov_mobiledata=false \
+    debug.performance.tuning=1
+
