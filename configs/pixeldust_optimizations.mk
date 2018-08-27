@@ -23,3 +23,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.prov_mobiledata=false \
     debug.performance.tuning=1
 
+# SystemUITests
+EXCLUDE_SYSTEMUI_TESTS := true
+
