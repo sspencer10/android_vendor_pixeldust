@@ -20,3 +20,6 @@ ifeq (pixeldust_sailfish,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pixeldust_sailfish.mk
 endif
 
+ifeq (pixeldust_Z00L,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pixeldust_Z00L.mk
+endif
