@@ -12,3 +12,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Packages
+PRODUCT_PACKAGES += \
+    GBoardDarkTheme \
+    SystemUIDarkTheme \
+    SettingsDarkTheme \
+    SystemDarkTheme \
+    SettingsBlackTheme \
+    SystemUIBlackTheme \
+    SystemBlackTheme \
+    SettingsShishuTheme \
+    SystemUIShishuTheme \
+    SystemShishuTheme \
+    SettingsShishuNightsTheme \
+    SystemUIShishuNightsTheme \
+    SystemShishuNightsTheme
+
