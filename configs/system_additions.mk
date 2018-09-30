@@ -14,14 +14,28 @@
 
 # Packages
 PRODUCT_PACKAGES += \
-    GBoardDarkTheme \
-    SystemUIDarkTheme \
-    SettingsDarkTheme \
     SystemDarkTheme \
+    SettingsDarkTheme \
+    SystemUIDarkTheme \
+    ContactsThemeDark \
+    DialerThemeDark \
+    FilesThemeDark \
+    SystemBlackTheme \
     SettingsBlackTheme \
     SystemUIBlackTheme \
-    SystemBlackTheme \
+    ContactsThemeBlack \
+    DialerThemeBlack \
+    FilesThemeBlack \
+    SystemChocolateTheme \
+    SettingsChocolateTheme \
+    SystemUIChocolateTheme \
+    ContactsThemeChocolate \
+    DialerThemeChocolate \
+    FilesThemeChocolate \
     SettingsShishuNightsTheme \
     SystemUIShishuNightsTheme \
-    SystemShishuNightsTheme
+    SystemShishuNightsTheme \
+    ContactsThemeShishuNights \
+    DialerThemeShishuNights \
+    FilesThemeShishuNights
 
