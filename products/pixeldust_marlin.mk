@@ -52,3 +52,9 @@ PRODUCT_COPY_FILES += \
 # Use SDCLANG
 TARGET_USE_SDCLANG := true
 
+# Google VR
+PRODUCT_PACKAGES += \
+    libdvr_loader \
+    com.google.vr.platform \
+    com.google.vr.platform.xml
+
