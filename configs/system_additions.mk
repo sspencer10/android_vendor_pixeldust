@@ -12,3 +12,59 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Packages
+PRODUCT_PACKAGES += \
+    SystemDarkTheme \
+    SettingsDarkTheme \
+    SystemUIDarkTheme \
+    ContactsThemeDark \
+    DialerThemeDark \
+    FilesThemeDark \
+    SystemBlackTheme \
+    SettingsBlackTheme \
+    SystemUIBlackTheme \
+    ContactsThemeBlack \
+    DialerThemeBlack \
+    FilesThemeBlack \
+    SystemChocolateTheme \
+    SettingsChocolateTheme \
+    SystemUIChocolateTheme \
+    ContactsThemeChocolate \
+    DialerThemeChocolate \
+    FilesThemeChocolate \
+    WellbeingThemeChocolate \
+    SettingsShishuNightsTheme \
+    SystemUIShishuNightsTheme \
+    SystemShishuNightsTheme \
+    ContactsThemeShishuNights \
+    DialerThemeShishuNights \
+    FilesThemeShishuNights \
+    WellbeingThemeShishuNights
+
+# Overlays
+PRODUCT_PACKAGES += \
+    AmberAccent \
+    BlueAccent \
+    BlueGreyAccent \
+    BrownAccent \
+    CyanAccent \
+    CandyRedAccent \
+    DeepOrangeAccent \
+    DeepPurpleAccent \
+    ExtendedGreenAccent \
+    GreenAccent \
+    GreyAccent \
+    IndigoAccent \
+    JadeGreenAccent \
+    LightBlueAccent \
+    LightGreenAccent \
+    LimeAccent \
+    OrangeAccent \
+    PaleBlueAccent \
+    PaleRedAccent \
+    PinkAccent \
+    PurpleAccent \
+    RedAccent \
+    TealAccent \
+    YellowAccent
+
