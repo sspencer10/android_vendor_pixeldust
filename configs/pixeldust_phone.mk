@@ -33,8 +33,3 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.dun.override=0
 
-# Enable WiFi display
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.debug.wfd.enable=1 \
-    persist.sys.wfd.virtual=0
-
