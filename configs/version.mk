@@ -25,5 +25,5 @@ PIXELDUST_VERSION := $(TARGET_PRODUCT)-pie-release-one-$(shell date -u +%Y%m%d-%
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.pixeldust.version=$(BUILD_VERSION)-$(PD_BUILDTYPE) \
     ro.pixeldust.device=$(TARGET_DEVICE) \
-    ro.pixeldust.ota.version=$(TARGET_PRODUCT)-$(PIXELDUST_VERSION)
+    ro.pixeldust.ota.version=$(PIXELDUST_VERSION)
 
