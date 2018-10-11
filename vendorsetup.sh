@@ -18,4 +18,5 @@ add_lunch_combo pixeldust_marlin-userdebug
 add_lunch_combo pixeldust_marlin-user
 add_lunch_combo pixeldust_sailfish-userdebug
 add_lunch_combo pixeldust_sailfish-user
-
+add_lunch_combo pixeldust_taimen-userdebug
+add_lunch_combo pixeldust_taimen-user
