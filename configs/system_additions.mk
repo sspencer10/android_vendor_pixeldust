@@ -12,7 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Packages
+# Extra Packages
+PRODUCT_PACKAGES += \
+    OmniJaws \
+    WeatherIcons
+
+# Theme Packages
 PRODUCT_PACKAGES += \
     SystemDarkTheme \
     SettingsDarkTheme \
