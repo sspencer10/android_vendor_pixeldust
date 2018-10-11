@@ -12,7 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Packages
+# Extra Packages
+PRODUCT_PACKAGES += \
+    OmniJaws
+
+# Theme Packages
 PRODUCT_PACKAGES += \
     SystemDarkTheme \
     SettingsDarkTheme \
