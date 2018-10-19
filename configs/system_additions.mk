@@ -25,18 +25,21 @@ PRODUCT_PACKAGES += \
     ContactsThemeDark \
     DialerThemeDark \
     FilesThemeDark \
+    GBoardThemeDark \
     SystemBlackTheme \
     SettingsBlackTheme \
     SystemUIBlackTheme \
     ContactsThemeBlack \
     DialerThemeBlack \
     FilesThemeBlack \
+    GBoardThemeBlack \
     SystemChocolateTheme \
     SettingsChocolateTheme \
     SystemUIChocolateTheme \
     ContactsThemeChocolate \
     DialerThemeChocolate \
     FilesThemeChocolate \
+    GBoardThemeChocolate \
     WellbeingThemeChocolate \
     SettingsShishuNightsTheme \
     SystemUIShishuNightsTheme \
@@ -44,32 +47,42 @@ PRODUCT_PACKAGES += \
     ContactsThemeShishuNights \
     DialerThemeShishuNights \
     FilesThemeShishuNights \
+    GBoardThemeShishuNights \
     WellbeingThemeShishuNights
 
 # Overlays
 PRODUCT_PACKAGES += \
-    AmberAccent \
-    BlueAccent \
-    BlueGreyAccent \
-    BrownAccent \
-    CyanAccent \
-    CandyRedAccent \
-    DeepOrangeAccent \
-    DeepPurpleAccent \
-    ExtendedGreenAccent \
-    GreenAccent \
-    GreyAccent \
-    IndigoAccent \
-    JadeGreenAccent \
-    LightBlueAccent \
-    LightGreenAccent \
-    LimeAccent \
-    OrangeAccent \
-    PaleBlueAccent \
-    PaleRedAccent \
-    PinkAccent \
-    PurpleAccent \
-    RedAccent \
-    TealAccent \
-    YellowAccent
+    Amber \
+    Black \
+    Blue \
+    BlueGrey \
+    Brown \
+    CandyRed \
+    Cyan \
+    DeepOrange \
+    DeepPurple \
+    ExtendedGreen \
+    Green \
+    Grey \
+    Indigo \
+    JadeGreen \
+    LightBlue \
+    LightGreen \
+    Lime \
+    Orange \
+    PaleBlue \
+    PaleRed \
+    Pink \
+    Purple \
+    Red \
+    Teal \
+    Yellow \
+    White \
+    UserOne \
+    UserTwo \
+    UserThree \
+    UserFour \
+    UserFive \
+    UserSix \
+    UserSeven
 
