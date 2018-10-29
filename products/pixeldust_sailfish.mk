@@ -37,7 +37,9 @@ PRODUCT_MANUFACTURER := Google
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=sailfish \
-    PRIVATE_BUILD_DESC="sailfish-user 9 PPR2.181005.003 4984323 release-keys"
+    PRIVATE_BUILD_DESC="sailfish-user 9 PPR2.181005.003 4984323 release-keys" \
+    BUILD_DISPLAY_ID=Custom_Build_v1.0
+    
 
 BUILD_FINGERPRINT="google/sailfish/sailfish:9/PPR2.181005.003/4984323:user/release-keys"
 BUILD_THUMBPRINT="9/PPR2.181005.003/4984323:user/release-keys"
