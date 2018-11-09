@@ -18,7 +18,6 @@ PRODUCT_PACKAGES += \
 
 # Additional goodies
 PRODUCT_PACKAGES += \
-    GooglePDFViewer \
     Browser
 
 # Copy hiddenapi whitelist

@@ -22,3 +22,10 @@ export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF8
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/pixeldust/overlay/common
 
+# Backup Tool
+PRODUCT_COPY_FILES += \
+    vendor/pixeldust/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
+    vendor/pixeldust/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
+    vendor/pixeldust/prebuilt/bin/50-hosts.sh:system/addon.d/50-hosts.sh \
+    vendor/pixeldust/prebuilt/bin/blacklist:system/addon.d/blacklist
+

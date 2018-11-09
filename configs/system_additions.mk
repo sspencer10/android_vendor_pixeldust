@@ -19,6 +19,27 @@ PRODUCT_PACKAGES += \
     LiveWallpapers \
     LiveWallpapersPicker
 
+# Fonts
+PRODUCT_PACKAGES += \
+    PD-Fonts
+
+PRODUCT_COPY_FILES += \
+    vendor/pixeldust/fonts/GoogleSans-Regular.ttf:system/fonts/GoogleSans-Regular.ttf \
+    vendor/pixeldust/fonts/GoogleSans-Medium.ttf:system/fonts/GoogleSans-Medium.ttf \
+    vendor/pixeldust/fonts/GoogleSans-MediumItalic.ttf:system/fonts/GoogleSans-MediumItalic.ttf \
+    vendor/pixeldust/fonts/GoogleSans-Italic.ttf:system/fonts/GoogleSans-Italic.ttf \
+    vendor/pixeldust/fonts/GoogleSans-Bold.ttf:system/fonts/GoogleSans-Bold.ttf \
+    vendor/pixeldust/fonts/GoogleSans-BoldItalic.ttf:system/fonts/GoogleSans-BoldItalic.ttf
+
+ADDITIONAL_FONTS_FILE := vendor/pixeldust/fonts/google-sans.xml
+
+ifeq ($(AB_OTA_UPDATER),true)
+PRODUCT_COPY_FILES += \
+    vendor/pixeldust/prebuilt/bin/backuptool_ab.sh:system/bin/backuptool_ab.sh \
+    vendor/pixeldust/prebuilt/bin/backuptool_ab.functions:system/bin/backuptool_ab.functions \
+    vendor/pixeldust/prebuilt/bin/backuptool_postinstall.sh:system/bin/backuptool_postinstall.sh
+endif
+
 # Theme Packages
 PRODUCT_PACKAGES += \
     SystemDarkTheme \
@@ -86,5 +107,38 @@ PRODUCT_PACKAGES += \
     UserFour \
     UserFive \
     UserSix \
-    UserSeven
+    UserSeven \
+    ObfusBleu \
+    NotImpPurple \
+    Holillusion \
+    MoveMint \
+    FootprintPurple \
+    BubblegumPink \
+    FrenchBleu \
+    Stock \
+    ManiaAmber \
+    SeasideMint \
+    DreamyPurple \
+    SpookedPurple \
+    HeirloomBleu \
+    TruFilPink \
+    WarmthOrange \
+    ColdBleu \
+    DiffDayGreen \
+    DuskPurple \
+    BurningRed \
+    HazedPink \
+    ColdYellow \
+    NewHouseOrange \
+    IllusionsPurple
+
+# QS tile styles
+PRODUCT_PACKAGES += \
+    QStileCircleTrim \
+    QStileDefault \
+    QStileDualToneCircle \
+    QStileOreo \
+    QStileOreoCircleTrim \
+    QStileOreoSquircleTrim \
+    QStileSquircleTrim
 
